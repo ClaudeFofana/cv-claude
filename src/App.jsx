@@ -387,7 +387,7 @@ export default function App() {
               [ Présentation ]
             </span>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif italic text-encre font-normal leading-tight mb-6">
-              L'alliance de la stratégie IT et de l'artisanat digital.
+              Transformer la vision stratégique en solutions numériques performantes.
             </h2>
             <p className="font-mono text-sm text-graphite/60">
               « Chaque ligne de code doit servir une vision, chaque pixel doit captiver l'attention. »
@@ -402,7 +402,8 @@ export default function App() {
           {/* Right Column: Bio & Cards */}
           <div className="lg:col-span-6 space-y-8">
             <p className="text-lg md:text-xl text-graphite/90 leading-relaxed font-normal">
-              Développeur Full Stack passionné par la création d'interfaces utilisateur immersives et d'architectures web haute performance. Mon objectif est d'allier ingénierie de précision et esthétique cinématique.
+              Ingénieur Logiciel & Développeur Full Stack, je conçois des solutions numériques modernes,
+              performantes et évolutives, en conciliant excellence technique, innovation et expérience utilisateur.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
