@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>CV — Sié Claude Fofana</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: #1C1C1E;
+      background: #FAFAFA;
+      line-height: 1.5;
+      padding: 40px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      border-bottom: 2px solid #E8634A;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+    }
+
+    .profile-photo {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #E8634A;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-info h1 {
+      font-size: 32px;
+      font-weight: 800;
+      color: #1C1C1E;
+    }
+
+    .header-info h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #E8634A;
+      margin-bottom: 12px;
+    }
+
+    .contact-line {
+      font-size: 13px;
+      color: #555;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #1C1C1E;
+      border-left: 4px solid #E8634A;
+      padding-left: 12px;
+      margin-bottom: 18px;
+    }
+
+    .card {
+      background: #FFFFFF;
+      border: 1px solid #E5E5E7;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 6px;
+    }
+
+    .card-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1C1C1E;
+    }
+
+    .card-subtitle {
+      font-size: 14px;
+      font-weight: 600;
+      color: #E8634A;
+    }
+
+    .card-date {
+      font-size: 12px;
+      font-weight: 700;
+      color: #E8634A;
+      background: rgba(232, 99, 74, 0.1);
+      padding: 3px 10px;
+      border-radius: 20px;
+    }
+
+    .card-desc {
+      font-size: 13.5px;
+      color: #444;
+      margin-top: 8px;
+    }
+
+    ul.highlights {
+      margin-top: 10px;
+      padding-left: 20px;
+      font-size: 13px;
+      color: #555;
+    }
+
+    ul.highlights li {
+      margin-bottom: 4px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .skill-box {
+      background: #FFFFFF;
+      border: 1px solid #E5E5E7;
+      border-radius: 12px;
+      padding: 15px;
+    }
+
+    .skill-name {
+      font-size: 14px;
+      font-weight: 700;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 6px;
+    }
+
+    .skill-bar {
+      height: 8px;
+      background: #E5E5E7;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .skill-fill {
+      height: 100%;
+      background: #E8634A;
+      border-radius: 4px;
+    }
+
+    .skill-details {
+      font-size: 11px;
+      color: #777;
+      margin-top: 6px;
+    }
+
+    @media print {
+      body {
+        padding: 0;
+        background: #FFF;
+      }
+
+      .card {
+        border: none;
+        box-shadow: none;
+        padding: 10px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <img src="/images/profile/photo-profil.jpg" alt="Sié Claude Fofana" class="profile-photo" />
+    <div class="header-info">
+      <h1>Sié Claude Fofana</h1>
+      <h2>Développeur Full Stack &amp; Designer</h2>
+      <div class="contact-line">
+        <span>📱 +225 0769518370</span>
+        <span>✉️ sieclaudefofana01@gmail.com</span>
+        <span>📍 Abidjan, Côte d'Ivoire</span>
+        <span>🌐 fsc_multiservices</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Profil -->
+  <div class="section">
+    <div class="section-title">À Propos</div>
+    <p style="font-size: 14px; color: #333; leading-height: 1.6;">
+      Développeur Full Stack passionné par la création d'interfaces utilisateur immersives et d'architectures web haute
+      performance. Mon objectif est d'allier ingénierie de précision et esthétique cinématique. Plus de 10 projets
+      développés avec succès.
+    </p>
+  </div>
+
+  <!-- Expériences -->
+  <div class="section">
+    <div class="section-title">Expériences Professionnelles</div>
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Stagiaire Informaticien</div>
+          <div class="card-subtitle">DSI à la DGI (Direction Générale des Impôts)</div>
+        </div>
+        <div class="card-date">07/2025 — 02/2026</div>
+      </div>
+      <div class="card-desc">
+        Service de la communication numerique.
+      </div>
+      <ul class="highlights">
+        <li>Support informatique et developpement de solution informatique et web pour l'ensemble des services.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Informaticien dans une microfinance de la place</div>
+          <div class="card-subtitle">Micro-finance • Abidjan, Côte d'Ivoire</div>
+        </div>
+        <div class="card-date">2023</div>
+      </div>
+      <div class="card-desc">
+        Gestion du système d'information, création de bases de données et suivi télématique.
+      </div>
+      <ul class="highlights">
+        <li>Création de la base de données pour la microfinance.</li>
+        <li>Gestion du parc automobile des véhicules de transport via le système GPS.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Fondateur &amp; Développeur Full Stack</div>
+          <div class="card-subtitle">fsc_multiservices</div>
+        </div>
+        <div class="card-date">2021 — Présent</div>
+      </div>
+      <div class="card-desc">
+        Conception, développement et administration de la plateforme e-commerce fsc_multiservices, tout en assurant la
+        direction artistique et le design graphique publicitaire.
+      </div>
+      <ul class="highlights">
+        <li>Création d'interfaces e-commerce cinématiques avec React &amp; Tailwind</li>
+        <li>Design visuel complet et création d'affiches publicitaires haute conversion</li>
+        <li>Intégration de passerelles de paiement sécurisées et gestion des stocks en temps réel.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Compétences -->
+  <div class="section">
+    <div class="section-title">Compétences Clés</div>
+    <div class="skills-grid">
+      <div class="skill-box">
+        <div class="skill-name">
+          <span>Développement Full Stack</span>
+          <span style="color: #E8634A;">60 %</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 60%;"></div>
+        </div>
+        <div class="skill-details">React, Next.js, Node.js, TypeScript, JavaScript, HTML, CSS</div>
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-name">
+          <span>Direction DSI &amp; Systèmes</span>
+          <span style="color: #E8634A;">60 %</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 60%;"></div>
+        </div>
+        <div class="skill-details">Infrastructures, Sécurité IT, Gouvernance</div>
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-name">
+          <span>E-Commerce &amp; Platforming</span>
+          <span style="color: #E8634A;">80 %</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 80%;"></div>
+        </div>
+        <div class="skill-details">fsc_multiservices, Payment APIs</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formations -->
+  <div class="section">
+    <div class="section-title">Formation &amp; Diplômes</div>
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Master / Diplôme d'Ingénieur en Systèmes &amp; Applications</div>
+          <div class="card-subtitle">Académie des Sciences Technologiques et Comptables (ASTC)</div>
+        </div>
+        <div class="card-date">2020 — 2026</div>
+      </div>
+      <div class="card-desc">
+        Spécialisation en architectures logicielles distribuées, Sécurité informatique et gestion de projets IT.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">BTS en Informatique Développeur d’Application</div>
+          <div class="card-subtitle">Académie des Sciences Technologiques et Comptables (ASTC)</div>
+        </div>
+        <div class="card-date">2016 — 2020</div>
+      </div>
+      <div class="card-desc">
+        Solides fondations en algorithmique, administration réseaux, bases de données relationnelles et web dev.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Baccalauréat Scientifique (Série D)</div>
+          <div class="card-subtitle">Lycée Moderne de Dabakala</div>
+        </div>
+        <div class="card-date">2016</div>
+      </div>
+      <div class="card-desc">
+        Spécialité Physique-Chimie, Mathématiques et Sciences de la Vie et de la Terre.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Auto-trigger print if requested via query param
+    if (window.location.search.includes('print=true')) {
+      window.onload = function () { window.print(); }
+    }
+  </script>
+</body>
+
+</html>

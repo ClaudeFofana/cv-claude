@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sié Claude Fofana — Développeur Full Stack &amp; Designer</title>
+  <meta name="description"
+    content="Portfolio et CV en ligne de Sié Claude Fofana. Développeur Full Stack, Designer UI/UX &amp;" />
+
+  <!-- Google Fonts for Preset A: Plus Jakarta Sans, Cormorant Garamond, IBM Plex Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="bg-neige text-graphite antialiased selection:bg-corail selection:text-white overflow-x-hidden font-sans">
+  <!-- Global Noise Texture SVG Filter Overlay -->
+  <div class="fixed inset-0 pointer-events-none z-50 opacity-[0.045] mix-blend-overlay">
+    <svg class="w-full h-full">
+      <filter id="noiseFilter">
+        <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch" />
+      </filter>
+      <rect width="100%" height="100%" filter="url(#noiseFilter)" />
+    </svg>
+  </div>
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
