@@ -386,7 +386,7 @@ export default function App() {
             <span className="text-xs font-mono uppercase tracking-widest text-corail block mb-3">
               [ Présentation ]
             </span>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif italic text-encre font-normal leading-tight mb-6">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif italic text-encre font-normal leading-snug mb-6">
               Transformer la vision stratégique en solutions numériques performantes.
             </h2>
             <p className="font-mono text-sm text-graphite/60">
